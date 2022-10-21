@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap');
+        /*font-family: 'Mingzat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;*/
+
+        body{
+            background-color: #e4c7cb;
+            font-family: 'Poppins','Roboto',sans-serif;
+            color:rgb(228, 199, 203);
+            font-size: 12px;
+            text-align: center;
+        }
+        h1{
+            font-family: 'Mingzat', sans-serif;
+            font-weight: 500;
+            text-align:left;
+            padding-left: 5%;
+            padding-top:3%;
+            font-size: 30px;
+            background: rgb(104,100,159);
+            background: linear-gradient(90deg, rgba(104,100,159,1) 0%, rgba(121,9,74,1) 90%); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            text-align:left;
+            padding-left: 5%;
+            font-size: 25px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(9,13,121,1) 20%, rgba(229,0,255,1) 100%);  
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .container{ /*~CONTAINER~*/
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 0.5fr 2fr 0.5fr;
+            grid-gap: 1%;
+            height: auto;
+
+        }
+        #content1, #content2, #content3, #content4, #content5, #content6, #content7{
+            /*background-color: rgb(24, 0, 34);*/
+            border-radius: 5px;
+            
+        }
+        #content1{
+            grid-column: 1/4;
+            grid-row: 1/2;
+            flex-shrink: 1;
+
+        /*  START img fitting the grids   */    
+
+        }
+        #content2, #content3, #content4{
+   
+            overflow:hidden;
+            flex-shrink: 2;
+            height: fit-content;
+
+            display: flex;
+            flex-flow: column wrap;
+
+        }
+        
+        #content2 img {
+            object-fit: cover;
+            width: 100% !important;
+            height: auto !important;
+            display: block;
+            margin-bottom:10px;
+
+        }
+
+        #content3, img {
+            object-fit: cover;
+            width: 100% !important;
+            height: auto !important;
+            display: block;
+            margin-bottom: 10px;
+
+
+        }
+
+        #content4 img {
+            object-fit: cover;
+            width: 100% !important;
+            height: auto !important;
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        .portrait{
+            padding-bottom: 200px;
+
+        }
+    
+        /*  END img fitting the grids   */   
+
+        #content5{
+
+            grid-column: 1/4;
+            grid-row: 3/4;
+            padding-top: 8%;
+            text-align: center;
+            background: rgb(2,0,36);
+            background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(228,199,203,1) 20%);
+            font-size: 30px;
+        }
+        a:link, a:visited{
+            text-decoration: none;
+            color: #e4c7cb;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="content1">
+            <h1>Wan Yi Leung</h1>
+            <h3>Photo-videographer with a MFA degree <br> 
+            Work Experience as a Social Media Marketing Specialist<br> 
+            NFT Artist using AI art software generatoers<br> 
+            ASMR Video Content Creator</h3>
+        </div>
+        <div id="content2">2
+            <a href="./Gallery_Website/index.html"><img src="./image/1000px-pexels-brady-knoll-3369537.jpg" alt="Photo leads to portfolio1"></a>
+            <img src="./image/21.jpg" alt="portrait-wan-1">
+        </div>
+        <div id="content3">3
+            <a href="./Hobby_Wan/index.html"><img src="./image/800px-leghurts_overlapping_bridge_layers_of_maze_multi-level_highway__3a94c53d-544b-48f5-b4d4-5667ffaf97bc.png" alt="Photo leads to portfolio2"></a>
+            <img src="./image/redyourblue.jpg" alt="portrait-wan-2">
+        </div>
+        <div id="content4">4
+            <a href="./Food Order/index.html"><img src="./image/classic_numbing_spicy_soup.jpg" alt="Photo leads to portfolio3"></a>
+            <img class="portrait" src="./image/tumblr_nzgjs6KJhE1v1l536o1_1280.jpg" alt="portrait-wan-3">
+        </div>
+        <div id="content5"><a href="./contact.html">Contact Me</a></div>
+       <!-- <div id="content6">6
+
+        </div>
+        <div id="content4">7
+
+        </div>
+    -->
+
+
+    </div>
+</body>
+</html>

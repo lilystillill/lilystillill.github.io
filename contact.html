@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./style/all.min.css"/>
+    <script src="./script/all.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap');
+        /*font-family: 'Mingzat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;*/
+
+        body{
+            background-color: #e4c7cb;
+            font-family: 'Poppins','Roboto',sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin: auto;
+        }
+        #heading1{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 220px;
+            color: #e4c7cb;
+            text-align: center;
+            background: rgb(2,0,36);
+            background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(228,199,203,1) 20%);
+            font-size: 17px;
+            padding-top: 9%;
+        }
+        h1{
+            padding-top: 10px;
+        }
+        #social{
+            font-size: 30px;
+            display: flex;
+            flex-flow: row wrap;
+            place-content: center;
+        }
+        .indi{
+            place-self: center;
+            padding: 10px;
+        }
+        .item{
+            background: rgb(104,100,159);
+            background: linear-gradient(90deg, rgba(104,100,159,1) 0%, rgba(121,9,74,1) 90%); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        a:link{
+            color: rgb(45, 0, 74);  
+            text-decoration: none;
+        }
+        a:hover{
+            opacity: 50%;
+        }
+        a:visited{
+            color: rgb(45, 0, 74);  
+            text-decoration: none;
+        }
+        #flex1{
+            display: flex;
+            flex-flow: column wrap;
+            place-content: center;
+            text-align: left;
+            margin: auto;
+        }
+        /*input styling*/
+        #message input[type=text]{
+            padding: 30px;
+            margin: 10px;
+        }
+        input[type=email], input[type=text]{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px ;
+            padding-bottom: 10px ;
+            margin: 10px;
+            border:0;
+            border-radius: 10px;
+            box-shadow:0 0 10px 3px rgba(59, 16, 59, 0.522);
+            background-color: ivory;
+        }
+        label{
+            padding-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading1"> <h1>Contact Me</h1>
+    </div>
+    <div id="flex1">
+        <div>
+            <div class="item">
+                <label for="name">Name</label><br><input type="text" id="name"/><label>
+            </div>
+            <div class="item">
+                <label for="email">Email</label><br><input type="email" id="email"/><label>
+            </div>
+            <div id="message" class="item">
+                <label for="message">Message</label><br><input type="text" id="message"/><label>
+            </div>
+            <div class="item" id="social">
+                <p class="indi"><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></p>
+                <p class="indi"><a href="https://twitter.com/leghurtsart"><i class="fa-brands fa-twitter"></i></a></p>
+                <p class="indi"><a href="https://www.linkedin.com/in/wan-yi-leung/"><i class="fa-brands fa-linkedin"></i></a></p>
+                <p class="indi"><a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a></p>
+
+            </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant_form</title>
+    <link rel="stylesheet" href="restaurant_form.css"/> 
+    <link href="all.min.css" rel="stylesheet" type="text/css" />
+    <script src="all.min.js"></script>
+</head>
+<body>
+    <header>
+        
+        <h1>MeanGirl Sichuan Hotpot</h1>
+        
+        <p class="add-info">Broth has been cooked in a perfect balance of authetic Sichuan peppercorns and chilles in beef bone broth for 24 hours. Meat is aged carefully for exquisite texture and flavor. Last but not least, our veggies are uniquely grown in China for Sichuan Hotpot</p>
+
+        <h2>Order Hot Pot in 3 steps for one person to a family</h2>
+
+    <div id="header_container_steps"> 
+        <img id="steps-img-1" src="choose-your-broth.jpg" alt="graphics: choose your broth" width="200"/>
+        <img id="steps-img-2" src="meat-seafood.jpg" alt="graphics: meat & seafood" width="200"/>
+        <img id="steps-img-3" src="Veg-mushroom.jpg" alt="graphics: veg & mushroom" width="200"/>
+    </div>   
+
+    <div id="header_container">
+           <div class="steps_img">
+           <img src="classic_numbing_spicy_soup.jpg" alt="Sichun classic numbing spicy soup" width="200"/>
+           </div>
+
+           <div class="icon">
+           <p><i class="fa-solid fa-plus"></i></p>
+           </div>
+
+           <div class="steps_img">
+           <img src="Exquisite Beef Slice.jpeg" alt="medium fat beef slices, aged and rolled" width="200"/>
+           </div>
+
+           <div class="icon">
+           <p><i class="fa-solid fa-plus"></i></p>
+           </div>
+
+           <div class="steps_img">
+           <img src="6-mushroom-combo.jpeg" alt="A combo of needle mushroom, black fungus, oyster mushroom, three other mushrooms, and Chinese cabbage" width="200"/>
+           </div>
+
+    
+    </div>
+
+
+    </header>
+    <main>
+        <div id="menu-container">
+            <h1>Choose Your Broth</h1> 
+
+            <div id="menu">
+                <div id="item1">
+                   <div class="image">
+                       <img src="classic_numbing_spicy_soup.jpg" alt="soup option 1: classic_numbing_spicy_soup" width="200"/>
+                   </div>
+                   <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="numbing-spicy-soup" name="soup1"><label id="soup1">Classic Sichuan <br>  Numbing Spicy Soup</label>
+                            <br/>
+                            <label for="volume">Volume<label><select id="volume" name="volume">
+                            <option value="small">small $5.99</option>
+                            <option value="medium">medium $6.99</option>
+                            <option value="big">big $7.99</option>
+                            </select>
+
+                        </form>
+                   </div>  
+                </div>
+
+                <div id="item2">
+                    <div class="image">
+                        <img src="beef_soup.jpg" alt="soup option 2: beef_soup" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="beef_soup" name="soup2"><label id="soup2">Beef Soup</label>
+                             <br/>
+                             <br/>
+                             <label for="volume">Volume<label><select id="volume" name="volume">
+                             <option value="small">small $5.99</option>
+                             <option value="medium">medium $6.99</option>
+                             <option value="big">big $7.99</option>
+                             </select>
+
+                         </form>
+                    </div>
+                </div>
+      
+                <div id="item3">
+                    <div class="image">
+                        <img src="tomato_soup.jpg" alt="soup option 3: tomato_soup" width="200"/>
+                    </div>
+                    <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="tomato_soup" name="soup3"><label id="soup3">Tomato Soup</label>
+                            <br/>
+                            <br/>
+                            <label for="volume">Volume<label><select id="volume" name="volume">
+                                <option value="small">small $5.99</option>
+                                <option value="medium">medium $6.99</option>
+                                <option value="big">big $7.99</option>
+                            </select>
+                            
+                        </form>
+                    </div>
+                </div>
+
+                <div id="item4">
+                    <div class="image">
+                        <img src="mushroom_soup.jpg" alt="soup option 4: mushroom_soup" width="200"/>
+                    </div>
+                    <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="mushroom_soup" name="soup4"><label id="soup4">Mushroom Soup</label>
+                            <br/>
+                            <br/>
+                            <label for="volume">Volume<label><select id="volume" name="volume">
+                                <option value="small">small $5.99</option>
+                                <option value="medium">medium $6.99</option>
+                                <option value="big">big $7.99</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <h1>Meat & Seafood</h1>
+
+            <div id="menu">
+                <div id="item1">
+                   <div class="image">
+                       <img src="Exquisite Beef Slice.jpeg" alt="Exquisite Beef Slices, finely lined fat" width="200"/>
+                   </div>
+                   <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="meat1" name="meat1"><label id="meat1">Exquisite Beef Slices</label>
+                            <br/>
+                            <br/>
+                            <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                            <option value="one_serving">1 serving</option>
+                            <option value="two_servings">2 servings</option>
+                            <option value="three_servings">3 servings</option>
+                            <option value="four_servings">4 serving</option>
+                            <option value="five_servings">5 servings</option>
+                            <option value="six_servings">6 servings</option>
+                            <option value="seven_servings">7 serving</option>
+                            <option value="eight_servings">8 servings</option>
+                            <option value="nine_servings">9 servings</option>
+                            <option value="ten_servings">10 servings</option>
+                            </select>
+
+                        </form>
+                   </div>  
+                </div>
+
+                <div id="item2">
+                    <div class="image">
+                        <img src="top-blade-steak-oyster-blade.jpeg" alt="top-blade-steak-oyster-blade" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="meat2" name="meat2"><label id="meat2">Top Blade Steak</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+      
+                 <div id="item3">
+                    <div class="image">
+                        <img src="Zelanian-lamb-slice-front-quadrups-shoulder.jpeg" alt="Zelanian lamb slices front quadrups shoulder" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="meat3" name="meat3"><label id="meat3">Zelanian Lamb Quadrups Slices</label>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+
+                 <div id="item4">
+                    <div class="image">
+                        <img src="pepper-flavoured-pork-kidney.jpeg" alt="pepper hot pork kidney" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="meat4" name="meat4"><label id="meat4">Peppery Pork Kidney</label>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+            </div>
+
+            <div id="menu">
+                <div id="item1">
+                   <div class="image">
+                       <img src="octopus.jpeg" alt="octopus" width="200"/>
+                   </div>
+                   <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="seafood1" name="seafood1"><label id="seafood1">Octopus</label>
+                            <br/>
+                            <br/>
+                            <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                            <option value="one_serving">1 serving</option>
+                            <option value="two_servings">2 servings</option>
+                            <option value="three_servings">3 servings</option>
+                            <option value="four_servings">4 serving</option>
+                            <option value="five_servings">5 servings</option>
+                            <option value="six_servings">6 servings</option>
+                            <option value="seven_servings">7 serving</option>
+                            <option value="eight_servings">8 servings</option>
+                            <option value="nine_servings">9 servings</option>
+                            <option value="ten_servings">10 servings</option>
+                            </select>
+
+                        </form>
+                   </div>  
+                </div>
+
+                <div id="item2">
+                    <div class="image">
+                        <img src="black-cod.jpeg" alt="Black Cod" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="seafood2" name="seafood2"><label id="seafood2">Black Cod Slices</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+      
+                 <div id="item3">
+                    <div class="image">
+                        <img src="thai-shrimps.jpeg" alt="Thai Shrimps" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="seafood3" name="seafood3"><label id="seafood3">Thai Whole Shrimps</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+
+                 <div id="item4">
+                    <div class="image">
+                        <img src="cuttlefish-wild.jpeg" alt="Wild Cuttlefish" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="seafood4" name="seafood4"><label id="mseafood4">Wild Cuttlefish</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+            </div>
+
+            <h1>Veggies & Mushroom</h1>
+
+            <div id="menu">
+                <div id="item1">
+                   <div class="image">
+                       <img src="spanich.jpeg" alt="Spanich" width="200"/>
+                   </div>
+                   <div class="describe">
+                        <form action="#">
+                            <input type="checkbox" value="veg1" name="veg1"><label id="veg1">Spanich</label>
+                            <br/>
+                            <br/>
+                            <label for="serves">$3.99 per Serving<label><select id="serves" name="serves">
+                            <option value="one_serving">1 serving</option>
+                            <option value="two_servings">2 servings</option>
+                            <option value="three_servings">3 servings</option>
+                            <option value="four_servings">4 serving</option>
+                            <option value="five_servings">5 servings</option>
+                            <option value="six_servings">6 servings</option>
+                            <option value="seven_servings">7 serving</option>
+                            <option value="eight_servings">8 servings</option>
+                            <option value="nine_servings">9 servings</option>
+                            <option value="ten_servings">10 servings</option>
+                            </select>
+
+                        </form>
+                   </div>  
+                </div>
+
+                <div id="item2">
+                    <div class="image">
+                        <img src="Bamboo Shoot.jpeg" alt="Bamboo Shoot" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="veg2" name="veg2"><label id="veg2">Bamboo Shoot</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$3.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+      
+                 <div id="item3">
+                    <div class="image">
+                        <img src="lotus-root.jpeg" alt="lotus-root" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="veg3" name="veg3"><label id="veg3">Lotus Root</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$3.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+
+                 <div id="item4">
+                    <div class="image">
+                        <img src="6-mushroom-combo.jpeg" alt="A mix of six different mushrooms with carrots and broccoli" width="200"/>
+                    </div>
+                    <div class="describe">
+                         <form action="#">
+                             <input type="checkbox" value="veg4" name="veg4"><label id="veg4">Six Mushroom Combo</label>
+                             <br/>
+                             <br/>
+                             <label for="serves">$5.99 per Serving<label><select id="serves" name="serves">
+                             <option value="one_serving">1 serving</option>
+                             <option value="two_servings">2 servings</option>
+                             <option value="three_servings">3 servings</option>
+                             <option value="four_servings">4 serving</option>
+                             <option value="five_servings">5 servings</option>
+                             <option value="six_servings">6 servings</option>
+                             <option value="seven_servings">7 serving</option>
+                             <option value="eight_servings">8 servings</option>
+                             <option value="nine_servings">9 servings</option>
+                             <option value="ten_servings">10 servings</option>
+                             </select>
+ 
+                         </form>
+                    </div>  
+                 </div>
+            </div>
+
+        </div>
+
+        <div id="client">
+            
+                
+                    <div class="preferences">
+                        <form action="#">
+                            <div class="detail1"><p>Spicy Level Of Your Soup 1-5, least to most:</p>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" value="spicy0" name="spicyness" id="spicy0"><label for="spicy0" required>Not Hot For Me</label>
+                                <input type="radio" value="spicy1" name="spicyness" id="spicy1"><label for="spicy1">Level 1 (the least spicy)</label>
+                                <input type="radio" value="spicy2" name="spicyness" id="spicy2"><label for="spicy2">Level 2</label>
+                                <input type="radio" value="spicy3" name="spicyness" id="spicy3"><label for="spicy3">Level 3</label>
+                                <input type="radio" value="spicy4" name="spicyness" id="spicy4"><label for="spicy4">Level 4</label>
+                                <input type="radio" value="spicy4" name="spicyness" id="spicy4"><label for="spicy4">Level 5</label>
+                            </div>
+
+                            <div class="detail2"><p>Free Sour Plum Juice to relieve the hotness:</p>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" value="none" name="sour_plum" id="none"><label for="none" required>None</label>
+                                <input type="radio" value="free1drink" name="sour_plum" id="free1drink"><label for="free1drink">1 serving</label>
+                                <input type="radio" value="free2drink" name="sour_plum" id="free2drink"><label for="free2drink">2 servings</label>
+                                <input type="radio" value="free3drink" name="sour_plum" id="free3drink"><label for="free3drink">3 servings</label>
+                            </div>
+
+                            <div class="detail3"><p>We make sure you can enjoy every bit of our Hotpot! Do you have Food Allergies?</p>
+                            </div>
+                            <div class="radio">
+                                <input type="checkbox" value="milk" name="milk" id="milk" ><label for="milk">Milk</label>
+                                <input type="checkbox" value="treenuts" name="treenuts" id="treenuts" ><label for="treenuts">Tree Nuts</label>
+                                <input type="checkbox" value="eggs" name="eggs" id="eggs" ><label for="eggs">Eggs</label>
+                                <input type="checkbox" value="peanuts" name="peanuts" id="peanuts" ><label for="peanuts">Peanuts</label>
+                                <input type="checkbox" value="fish" name="fish" id="fish" ><label for="fish">Fish</label>
+                                <input type="checkbox" value="wheat" name="wheat" id="wheat" ><label for="wheat">Wheat</label>
+                                <input type="checkbox" value="shellfish" name="shellfish" id="shellfish" ><label for="shellfish">Shellfish</label>
+                                <input type="checkbox" value="soybeans" name="soybeans" id="soybeans" ><label for="soybeans">Soybeans</label>
+                                <input type="checkbox" value="other" name="other" id="other" ><label for="other">"Other (Write in Comments Box)"</label>
+                            </div>    
+
+                        </form>
+
+
+
+                    </div>
+
+                    
+
+                    <div class="info">
+                        <div class="input">
+                                <label for="fname">First Name: </label><br>
+                                <input type="text" id="fname" required>
+                                <br>
+                                <label for="lname">Last Name: </label><br><input type="text" id="lname" required>
+                                <br>
+                                <label for="email">Email: </label><br><input type="email" id="email" required>
+                                <br>
+                                <label for="phone">Phone Number </label><br><input type="tel" id="phone" required>
+                                <br>
+                        </div>
+                    </div>
+
+                    <div id="delivery">
+                        <div class="input">
+                            <p>Delivery address</p>
+                            <label for="street">Street Address </label><br>
+                            <input type="text" id="street" required>
+                        </div>
+                        <div class="input">
+                            <label for="city">City </label><br>
+                            <input type="text" id="city" required>
+                        </div>
+                        <div class="input">
+                            <label for="state">State </label>
+                            <select name="state" size="1">
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">Dist of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <label for="zip">Zip Code </label><br>
+                            <input type="text" id="zip" required>
+                    
+                        </div>
+                            
+                    </div>    
+                <div>
+                    <input type="submit" value="Submit Your Order!">
+                </div>        
+                
+        </div>
+
+    </main>
+
+</body>
+</html>
